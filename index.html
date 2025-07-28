@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap JS (for navbar toggle functionality) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <!--the nav bar -->
+
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="150" alt="Logo">
+            </a>
+
+            <!--toggle button for mobile-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ms-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html" style="  box-shadow: 10px 10px 5px rgb(173, 139,58);
+">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="room.html" style="  box-shadow: 10px 10px 5px rgb(173, 139,58);
+">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="  box-shadow: 10px 10px 5px rgb(173, 139,58);
+">Dining</a>
+                    </li>
+                </ul>
+                <a href="https://www.goibibo.com/hotels/lake-shore-hotel-in-udaipur-6092183736068825066/" class="btn btn-warning ms-auto">Online Booking</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!--offer strip-->
+
+    <div class="bg-white text-center text-dark py-2">
+        <marquee behaviour="scroll" direction="left" scrollamount="16">
+            <strong class="fs-3"> Welcome to Radhika Villas</strong>
+        </marquee>
+    </div>
+
+
+    <!--slider-->
+
+    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel" data-bs-interval="2000">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100"
+                    src="https://lh3.googleusercontent.com/p/AF1QipPhlMhMgOwN7Y1aOwPv_GLhknqvgpD7PTj6zSug=s1360-w1360-h1020-rw"
+                    alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://lh3.googleusercontent.com/p/AF1QipMX6Hg3CDaWGI364rDO47zEzQ-ZFqRMAbLMUbJl=s1360-w1360-h1020-rw"
+                    alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://lh3.googleusercontent.com/p/AF1QipNiQ0VroF61afETmRHHPfXrDBY5kQo1Y_n7UyPt=s1360-w1360-h1020-rw"
+                    alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://lh3.googleusercontent.com/p/AF1QipM_gPX7fbpmbJJ8hxvQfNKJT_G_oTJqQuhps5oh=s1360-w1360-h1020-rw"
+                    alt="fourth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://lh3.googleusercontent.com/p/AF1QipMGmFdXmupCF-6otvKHibcPU47vmy0DZn23El0u=s1360-w1360-h1020-rw"
+                    alt="fifth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://lh3.googleusercontent.com/p/AF1QipNlgj1OOOs0Iz4Y1Dh7NJnVL9Cl9O1iMJvgej79=s1360-w1360-h1020-rw"
+                    alt="sixth slide">
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+
+    <!--offer strip-->
+
+    <div class="bg-warning text-center text-dark py-2">
+        <marquee behaviour="scroll" direction="left" scrollamount="6">
+            <strong> Special Offers : </strong>Book your stay this week & get 20% off + Free Breakfast
+        </marquee>
+    </div>
+
+
+    <!-- hotel info-->
+    <section class="hotel-info">
+        <div class="container">
+            <div class="row align-items-stretch p-4">
+
+                <!--left box-->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="img/logo.png" alt="Radhika Villas Resort" class="hover-card img-fluid rounded shadow">
+                </div>
+
+                <!--right box-->
+                <div class="hover-card col-md-6">
+                    <h2 class="fw-bold text-center mb-3">Welcome to Radhika Vilas</h2>
+                    <p class="lead text-start">Experience timeless luxury in our heritage resort nestled in the heart of
+                        Madhya
+                        Pradesh.</p>
+                    <ul class="list-unstyl text-start">
+                        <li>Heritage-style rooms with modern amenities</li>
+                        <li>Delicious local & international dining</li>
+                        <li>Peaceful natural surroundings</li>
+                        <li> Convenient location near city landmarks</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+
+    <!-- MAP AND CONTACT FORM-->
+    <section class="map-contact">
+        <div class="container py-5">
+            <div class="row g-4 align-items-stretch">
+
+
+                <!-- Left Side: Map -->
+                <div class="col-md-6">
+                    <div class="hover-card  w-100 map h-100">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.550558143853!2d76.68533861893556!3d25.69740814486158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397031622dab5a43%3A0xb54abdd2c7e96fad!2sRadhika%20Vilas%20-%20A%20Heritage%20Resort!5e1!3m2!1sen!2sin!4v1753094306613!5m2!1sen!2sin"
+                            width="100%" height="100%" style="border:0; border-radius: 8px;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <!-- Right Side: Contact Form -->
+                <div class=" col-md-6">
+                    <div class="hover-card w-100 bg-white p-4 rounded shadow h-100">
+                        <h2 class="text-center mb-4">Contact Us</h2>
+                        <form id="contactForm" action="php/submit.php" method="POST">
+
+                            <div class="text-start mb-3">
+                                <label for="name" class="form-label">Name:</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Enter Name"
+                                    required />
+
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" id="email" name="email" class="form-control"
+                                    placeholder="Enter Email" required />
+
+                                <label for="phone" class="form-label">Moblie Number:</label>
+                                <input type="tel" id="phone" name="phone" class="form-control"
+                                    placeholder="Enter Phone Number" pattern="[0-9]{10}" required />
+                                <small class="text-muted">Enter 10-digit phone number only.</small>
+
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" rows="5" class="form-control"
+                                    placeholder="Enter Message" required></textarea>
+
+                                <button type="submit" class="btn btn-primary w-100 mt-3">Send Message</button>
+                                <button type="reset" class="btn btn-secondary w-100 mt-2">Reset</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white pt-4 pb-2 mt-5">
+        <div class="container-fluid text-center">
+            <h5 class="mb-3">Radika Vilas</h5>
+            <p class="mb-1">Address: Radhika Vilas - A, Heritage Resort, Pali Road, Salapura, Jat Kheda, Madhya Pradesh
+                476337</p>
+            <p class="mb-1">Phone: +91-98882 55591 | Email: hslip999@gmail.com</p>
+
+            <div class="mt-3">
+                <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+            </div>
+
+            <hr class="bg-white my-3">
+
+            <p class="mb-0">&copy; 2025 Radika Vilas. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+
+    <!--JS file -->
+    <script src="js/myscript.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    float: right;
+}
+
+.custom-header {
+  background-color: rgba(0, 0, 0, 0.6); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  opacity: 0.95;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.image-slide{
+    z-index:-1;
+}
+
+.contact-bg {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipPIGPqgHmgow8hVRjjhPRlVBojY-wtNo3K4ZRsR=s1360-w1360-h1020-rw'); /* 🖼 Your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.contact-bg .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.footer {
+  font-size: 15px;
+  line-height: 1.6;
+  background-image: linear-gradient(to right, #0d0d0d, #1c1c1c);
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #f0c14b;
+}
+
+
+.carousel-inner img {
+    margin: 0 auto;
+    height: 800px;
+    object-fit: cover;
+}
+
+
+
+.hover-card {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hover-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3); 
+}
+
+.hover-card .logo {
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.Container{
+  width: 100%;
+  height: 100vh;
+}
