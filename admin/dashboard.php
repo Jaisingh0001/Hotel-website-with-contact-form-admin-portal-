@@ -25,7 +25,7 @@ $result = $conn->query($sql);
 </head>
 
 <body>
-    <div class="container mt-5">
+<div class="container mt-5">
         <h2>Welcome, Admin!</h2>
         <a href="logout.php" class="btn btn-danger mb-4">Logout</a>
 

@@ -1,0 +1,23 @@
+.head1{
+      font-weight: 300;
+    font-size: 3.4rem;
+    line-height: 30px;
+    font-family: 'Rubik', sans-serif;
+    color: #45443F;
+    text-align: center;
+}
+.div1{
+    margin-top: 30px;
+    padding: 10px;
+}
+.div2{
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 30px;
+    font-family: 'Rubik', sans-serif;
+    color: #45443F;
+    text-align: center;   
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}

@@ -1,13 +1,13 @@
 .navbar-nav .nav-link {
-    font-size: 18px;
-    font-weight: 500;
-    float: right;
+  font-size: 18px;
+  font-weight: 500;
+  float: right;
 }
 
 .custom-header {
-  background-color: rgba(0, 0, 0, 0.6); 
-  backdrop-filter: blur(10px); 
-  -webkit-backdrop-filter: blur(10px); 
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   opacity: 0.95;
   min-height: 70px;
   display: flex;
@@ -15,12 +15,13 @@
   transition: background-color 0.3s ease;
 }
 
-.image-slide{
-    z-index:-1;
+.image-slide {
+  z-index: -1;
 }
 
 .contact-bg {
-  background-image: url('https://lh3.googleusercontent.com/p/AF1QipPIGPqgHmgow8hVRjjhPRlVBojY-wtNo3K4ZRsR=s1360-w1360-h1020-rw'); /* 🖼 Your background image */
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipPIGPqgHmgow8hVRjjhPRlVBojY-wtNo3K4ZRsR=s1360-w1360-h1020-rw');
+  /* 🖼 Your background image */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,9 +50,9 @@
 
 
 .carousel-inner img {
-    margin: 0 auto;
-    height: 800px;
-    object-fit: cover;
+  margin: 0 auto;
+  height: 800px;
+  object-fit: cover;
 }
 
 
@@ -61,7 +62,7 @@
   text-align: center;
   padding: 20px;
   background: white;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 10px;
   cursor: pointer;
@@ -69,7 +70,7 @@
 
 .hover-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3); 
+  box-shadow: 0 8px 16px rgba(233, 9, 9, 0.3);
 }
 
 .hover-card .logo {
@@ -78,7 +79,4 @@
   margin-bottom: 10px;
 }
 
-.Container{
-  width: 100%;
-  height: 100vh;
-}
+
